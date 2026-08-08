@@ -6,19 +6,19 @@ This plugin adds an ASCIIScreen Node, which can display any number of child ASCI
 
 Every significant property or method in the plugin is explained using GDScript documentation comments.
 
-### ![ascii_screen_icon](addons/GodotASCIIGUIScreen/icons/ascii_screen_icon.png) ASCIIScreen (RichTextLabel)
+### ![ascii_screen_icon](addons/ASCIIGUIScreen/icons/ascii_screen_icon.png) ASCIIScreen (RichTextLabel)
 - renders any amount of children in the order of their hierarchy in the tree in the same RichTextLabel
 - this is effectively a grid
 - color support through either BBCode or a Shader
 
-### ![ascii_screen_icon](addons/GodotASCIIGUIScreen/icons/ascii_text_element_icon.png) ASCIITextElement
+### ![ascii_screen_icon](addons/ASCIIGUIScreen/icons/ascii_text_element_icon.png) ASCIITextElement
 - displays text on the parent ASCIIScreen
 - support for BBCode color
 - support for BBCode url
 
 ![ASCIITextElement](.example_videos/text_example.gif)
 
-### ![ascii_screen_icon](addons/GodotASCIIGUIScreen/icons/ascii_pixel_art_icon.png) ASCIIPixelArt
+### ![ascii_screen_icon](addons/ASCIIGUIScreen/icons/ascii_pixel_art_icon.png) ASCIIPixelArt
 - automatically converts a Texture2D to ASCII characters
 - preserves color
 - matches contrast
