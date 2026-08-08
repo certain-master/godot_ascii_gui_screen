@@ -1,0 +1,381 @@
+[gd_scene format=3 uid="uid://ri8pn5i14ocp"]
+
+[ext_resource type="FontFile" uid="uid://bo8tqi42vg07m" path="res://addons/ASCIIGUIScreen/fonts/unifont-17.0.05.otf" id="1_70vj6"]
+[ext_resource type="Script" uid="uid://qx1nqsohcta3" path="res://addons/ASCIIGUIScreen/classes/ascii_screen.gd" id="2_qtu10"]
+[ext_resource type="RichTextEffect" uid="uid://pp1oxglcpawd" path="res://addons/ASCIIGUIScreen/resources/ascii_effect.tres" id="3_1e6js"]
+[ext_resource type="Script" uid="uid://dlladg1ymjigm" path="res://addons/ASCIIGUIScreen/classes/ascii_effect.gd" id="3_t0kni"]
+[ext_resource type="Resource" uid="uid://dardx5u688oya" path="res://addons/ASCIIGUIScreen/resources/ascii_themes/extended_ascii_theme.tres" id="5_1e6js"]
+[ext_resource type="Script" uid="uid://cs4owqwmimtas" path="res://addons/ASCIIGUIScreen/classes/ascii_text_element.gd" id="5_a5ior"]
+[ext_resource type="Script" uid="uid://c2e2nsf0n6e27" path="res://addons/ASCIIGUIScreen/classes/ascii_pixel_art.gd" id="7_7x8x3"]
+[ext_resource type="Texture2D" uid="uid://catul3frhrd0y" path="res://example_scene/mmbg.png" id="8_rycyq"]
+[ext_resource type="Texture2D" uid="uid://4h6lhwbufm6l" path="res://example_scene/moon.png" id="10_1k6cn"]
+[ext_resource type="Texture2D" uid="uid://pvwfwy6vvgkb" path="res://example_scene/Alisa.png" id="11_1e6js"]
+[ext_resource type="Texture2D" uid="uid://dr7jtr72e83qt" path="res://example_scene/Hills.png" id="11_3qux0"]
+[ext_resource type="Texture2D" uid="uid://bn8u47y27od1c" path="res://example_scene/Trees.png" id="12_rbvhi"]
+[ext_resource type="Resource" uid="uid://drjk7eh50kg4t" path="res://example_scene/example_text.tres" id="13_q4a7c"]
+[ext_resource type="Script" uid="uid://ciy5palgvotvi" path="res://addons/ASCIIGUIScreen/classes/ascii_text_resource.gd" id="14_oie6x"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_1e6js"]
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_17ori"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_1e6js"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_t0kni"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_k3mpm"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_3qux0"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_rbvhi"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_dpjts"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_h8i6e"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_7ylgk"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_70vj6"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_sdrcg"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_1crd1"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_8igvh"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_v80sm"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_xrdle"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_q7x7j"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_1aqkd"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_jr8g2"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_wx7pd"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_oi8d1"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_6ioua"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_yu8rq"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_njf13"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_j06uu"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_dan3q"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_gglu6"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_wy7g1"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_5f45d"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_kligo"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_8g0i5"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_4srbo"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_vb15w"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_twr3v"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_bpxjk"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_55nku"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_40jpu"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_el8mm"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_3cdim"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_sk7d6"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_bta47"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_yids5"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_64iav"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_x2dlr"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_1uw4w"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_yc7jf"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_rutrv"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_q4a7c"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_44w4a"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_oie6x"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_0do6i"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_vdu1s"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_y7gko"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_ru158"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_gvedh"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_4gabg"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_ml0ut"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_7g67r"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_wirli"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="RichTextEffect" id="RichTextEffect_t1vax"]
+script = ExtResource("3_t0kni")
+
+[sub_resource type="Resource" id="Resource_oie6x"]
+script = ExtResource("14_oie6x")
+text = "   ░██    ░██        ░██              ░██                                                                                                   ░██            ░██ 
+   ░██    ░██                                                                                                                               ░██            ░██ 
+░████████ ░████████  ░██ ░███████     ░██ ░███████      ░██████   ░████████      ░███████  ░██    ░██  ░██████   ░█████████████  ░████████  ░██  ░███████  ░██ 
+   ░██    ░██    ░██ ░██░██           ░██░██                 ░██  ░██    ░██    ░██    ░██  ░██  ░██        ░██  ░██   ░██   ░██ ░██    ░██ ░██ ░██    ░██ ░██ 
+   ░██    ░██    ░██ ░██ ░███████     ░██ ░███████      ░███████  ░██    ░██    ░█████████   ░█████    ░███████  ░██   ░██   ░██ ░██    ░██ ░██ ░█████████ ░██ 
+   ░██    ░██    ░██ ░██       ░██    ░██       ░██    ░██   ░██  ░██    ░██    ░██         ░██  ░██  ░██   ░██  ░██   ░██   ░██ ░███   ░██ ░██ ░██            
+    ░████ ░██    ░██ ░██ ░███████     ░██ ░███████      ░█████░██ ░██    ░██     ░███████  ░██    ░██  ░█████░██ ░██   ░██   ░██ ░██░█████  ░██  ░███████  ░██ 
+                                                                                                                                 ░██                           
+                                                                                                                                 ░██                           
+                                                                                                                                                               "
+metadata/_custom_type_script = "uid://ciy5palgvotvi"
+
+[node name="ASCIIScreen" type="RichTextLabel" unique_id=1700355694]
+material = SubResource("CanvasItemMaterial_1e6js")
+custom_minimum_size = Vector2(5, 5)
+offset_right = 1280.0
+offset_bottom = 720.0
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_fonts/normal_font = ExtResource("1_70vj6")
+theme_override_fonts/bold_font = ExtResource("1_70vj6")
+theme_override_fonts/bold_italics_font = ExtResource("1_70vj6")
+theme_override_fonts/italics_font = ExtResource("1_70vj6")
+theme_override_fonts/mono_font = ExtResource("1_70vj6")
+theme_override_font_sizes/normal_font_size = 16
+theme_override_font_sizes/bold_font_size = 16
+theme_override_font_sizes/bold_italics_font_size = 16
+theme_override_font_sizes/italics_font_size = 16
+theme_override_font_sizes/mono_font_size = 16
+bbcode_enabled = true
+text = "[color=384c65]p[/color][color=3c4f67]p[/color][color=44566e]w[/color][color=485971]w[/color][color=40536a]p[/color][color=44576e]pp[/color][color=485a71]pp[/color][color=4e6075]pp[/color][color=54657a]p[/color][color=5b6a80]w[/color][color=617084]w[/color][color=5a6b7f]p[/color][color=607084]pp[/color][color=667588]pp[/color][color=6a798b]pp[/color][color=6e7d8e]p[/color][color=748193]w[/color][color=788596]w[/color][color=728092]p[/color][color=758394]pp[/color][color=778596]pppp[/color][color=768495]p[/color][color=7c8999]w[/color][color=798697]w[/color][color=738192]p[/color][color=707e90]pp[/color][color=6c7a8d]pp[/color][color=667588]pp[/color][color=607084]p[/color][color=677589]w[/color][color=617084]w[/color][color=5a6b7f]p[/color][color=54657a]pp[/color][color=4c5e74]pp[/color][color=465970]pp[/color][color=42546c]p[/color][color=4a5b72]w[/color][color=46576f]w[/color][color=3d5169]p[/color][color=3a4e66]pp[/color][color=374b63]pp[/color][color=334861]p[/color][color=334761]p[/color][color=31445f]p[/color][color=32455e]p[/color][color=30445d]p[/color][color=2e435d]p[/color][color=2d415b]p[/color][color=2d415a]p[/color][color=2b4059]ppp[/color][color=2a3f58]pp[/color][color=2d3f58]pp[/color][color=2a3f58]pp[/color][color=293e57]dddd[/color][color=233750]bb[/color][color=2c3d55]dd[/color][color=23364d]kkkkkkkk[/color][color=2b3c53]dd[/color][color=22354b]kkkk[/color][color=22344a]kkkk[/color][color=2a3a50]bb[/color][color=213349]kkkk[/color][color=203348]hhhh[/color][color=203247]hh[/color][color=203147]hh[/color][color=203146]hhhh[/color][color=203045]hhhh[/color][color=1f3044]hhhhhh[/color][color=1e2f43]aaaa[/color][color=1e2e41]aaaaaa[/color][color=1e2d40]aaaa[/color][color=263346]kk[/color][color=1d2d3e]aa[/color][color=1d2c3e]aaaa[/color][color=1c2b3d]oo[/color][color=253243]hh[/color][color=1c2a3c]oo[/color][color=1c2a3b]oo[/color]
+[color=43556d]w[/color][color=475970]w[/color][color=3f526a]p[/color][color=43566d]p[/color][color=4b5c73]w[/color][color=506077]w[/color][color=485a71]p[/color][color=4d5f75]pp[/color][color=54657a]p[/color][color=5b6a80]w[/color][color=617084]w[/color][color=5a6b7f]p[/color][color=617184]p[/color][color=687689]w[/color][color=6e7c8e]w[/color][color=687789]p[/color][color=6e7d8e]pp[/color][color=758394]p[/color][color=7b8798]w[/color][color=7f8b9c]w[/color][color=7a8797]p[/color][color=7e8b9b]p[/color][color=838f9f]w[/color][color=8691a1]w[/color][color=808d9d]p[/color][color=838f9f]ppp[/color][color=8893a3]w[/color][color=8793a2]w[/color][color=828e9e]p[/color][color=808c9c]p[/color][color=8590a0]w[/color][color=818d9d]w[/color][color=7b8999]p[/color][color=768495]pp[/color][color=717f90]p[/color][color=778495]w[/color][color=707d90]w[/color][color=69788b]p[/color][color=627185]p[/color][color=68778a]w[/color][color=617084]w[/color][color=5a6b7f]p[/color][color=536479]pp[/color][color=4c5e74]p[/color][color=54647a]w[/color][color=4d5e74]w[/color][color=45576e]p[/color][color=41546b]p[/color][color=42546b]p[/color][color=3e5068]p[/color][color=3d4f68]p[/color][color=384b65]p[/color][color=374b64]p[/color][color=344861]p[/color][color=364860]p[/color][color=34465e]p[/color][color=32465e]p[/color][color=2f445c]p[/color][color=31435b]p[/color][color=2f415a]p[/color][color=2d415a]p[/color][color=2b4059]pp[/color][color=2a3f58]p[/color][color=2c3f57]pp[/color][color=293e57]dd[/color][color=2c3e56]dd[/color][color=23364e]kkkk[/color][color=2b3d54]dd[/color][color=23364d]kk[/color][color=2b3c53]dd[/color][color=22354c]kkkk[/color][color=22354b]kk[/color][color=22344a]kk[/color][color=2b3b51]dd[/color][color=21334a]kkkk[/color][color=213349]kk[/color][color=203348]hh[/color][color=29394f]bb[/color][color=203247]hh[/color][color=203147]hhhh[/color][color=28384d]bb[/color][color=28374c]bb[/color][color=203045]hh[/color][color=1f3044]hhhh[/color][color=28364a]kk[/color][color=27364a]kk[/color][color=1e2f43]aa[/color][color=1e2e41]aaaa[/color][color=263547]kk[/color][color=263447]kk[/color][color=1e2d40]aa[/color][color=1e2d3f]aa[/color][color=1d2d3e]aa[/color][color=253345]kk[/color][color=1d2c3e]aa[/color][color=1c2b3d]oooo[/color][color=1c2a3c]oo[/color][color=253142]hh[/color][color=1c2a3b]oo[/color][color=1b2a3b]oooo[/color]
+[color=3d5169]p[/color][color=42546c]pp[/color][color=465970]p[/color][color=ffffff]░██[/color][color=59697e]w[/color][color=526379]p[/color][color=5a6a7e]pp[/color][color=ffffff]░██[/color][color=68778a]p[/color][color=717f90]p[/color][color=778495]w[/color][color=7e8a9b]w[/color][color=788696]p[/color][color=7e8b9b]pp[/color][color=8591a0]p[/color][color=ffffff]░██[/color][color=8c97a6]p[/color][color=919ba9]w[/color][color=929dab]w[/color][color=8e99a7]ppp[/color][color=8d98a6]pp[/color][color=8a96a4]pp[/color][color=8692a1]pp[/color][color=818e9d]pp[/color][color=ffffff]░██[/color][color=738192]p[/color][color=6b7a8c]p[/color][color=6b798c]p[/color][color=627185]pp[/color][color=59687e]p[/color][color=58687d]p[/color][color=506277]p[/color][color=506276]p[/color][color=495b70]pp[/color][color=42556b]p[/color][color=41546a]p[/color][color=3d5067]pp[/color][color=394d64]p[/color][color=3c4d64]p[/color][color=384961]p[/color][color=344860]d[/color][color=31465e]dd[/color][color=2e435b]d[/color][color=283c54]b[/color][color=263952]b[/color][color=263850]k[/color][color=24374f]k[/color][color=2d3e56]d[/color][color=2c3d55]d[/color][color=23364d]kkkkkk[/color][color=22354c]kk[/color][color=2b3c53]dd[/color][color=22354b]kk[/color][color=22344a]kkkk[/color][color=21334a]kk[/color][color=2a3a50]bb[/color][color=213349]kk[/color][color=203348]hhhh[/color][color=203247]hh[/color][color=28384d]bb[/color][color=203147]hh[/color][color=203146]hh[/color][color=203045]hhhh[/color][color=28364b]bb[/color][color=1f3044]hhhh[/color][color=1e2f43]aaaa[/color][color=273548]kk[/color][color=1e2e41]aaaa[/color][color=1e2d40]aaaa[/color][color=263346]kk[/color][color=1d2d3e]aaaa[/color][color=1d2c3e]aa[/color][color=1c2b3d]oo[/color][color=253243]hh[/color][color=1c2a3c]o[/color][color=ffffff]░██[/color][color=1c2a3b]oo[/color][color=1b2a3b]oo[/color][color=243040]hh[/color][color=1b293a]oooo[/color][color=1b2939]oo[/color][color=ffffff]░██[/color][color=232f3e]h[/color]
+[color=3f526a]p[/color][color=44576e]pp[/color][color=495b72]p[/color][color=ffffff]░██[/color][color=57687c]p[/color][color=5e6d82]w[/color][color=667488]w[/color][color=5f6f83]p[/color][color=ffffff]░██[/color][color=707e90]p[/color][color=798697]pp[/color][color=808d9d]p[/color][color=8691a1]w[/color][color=8d98a6]w[/color][color=8894a2]p[/color][color=8e99a7]pp[/color][color=929daa]pp[/color][color=96a0ad]pp[/color][color=98a2af]p[/color][color=9ca5b2]ww[/color][color=98a2af]p[/color][color=97a1ae]pp[/color][color=949fac]pp[/color][color=909ba9]p[/color][color=959fac]w[/color][color=8f9aa8]w[/color][color=8b96a4]p[/color][color=85909f]p[/color][color=848f9f]p[/color][color=7b8899]p[/color][color=7b8898]p[/color][color=728092]pp[/color][color=69778a]p[/color][color=6a7789]p[/color][color=606e81]pp[/color][color=576579]p[/color][color=556579]p[/color][color=4c5e73]pp[/color][color=45576d]pp[/color][color=3f5268]p[/color][color=415267]p[/color][color=3d4e64]p[/color][color=3a4d64]d[/color][color=364961]d[/color][color=304258]k[/color][color=2c3f56]kk[/color][color=293c53]k[/color][color=293c52]k[/color][color=263950]k[/color][color=2e4057]d[/color][color=2d3f55]d[/color][color=25384e]k[/color][color=23364d]k[/color][color=22354c]kkkk[/color][color=22354b]kk[/color][color=2b3c52]dd[/color][color=22344a]kk[/color][color=21334a]kkkk[/color][color=213349]kk[/color][color=2a3a50]bb[/color][color=203348]hh[/color][color=29394f]bb[/color][color=203147]hhhh[/color][color=28384d]bb[/color][color=203146]hh[/color][color=28374c]bb[/color][color=1f3044]hhhh[/color][color=28364a]kk[/color][color=1f3044]hh[/color][color=27364a]kk[/color][color=1e2f43]aa[/color][color=1e2e41]aa[/color][color=263547]kk[/color][color=1e2e41]aa[/color][color=263447]kk[/color][color=1e2d40]aa[/color][color=1d2d3e]aa[/color][color=253345]kk[/color][color=1d2c3e]aa[/color][color=253344]kk[/color][color=1c2b3d]oo[/color][color=1c2a3c]oo[/color][color=253142]hh[/color][color=1c2a3b]oo[/color][color=253141]h[/color][color=ffffff]░██[/color][color=1b2a3b]oo[/color][color=242f40]hh[/color][color=1b2939]oo[/color][color=232f3f]hh[/color][color=1b2839]oooo[/color][color=ffffff]░██[/color][color=1a2737]*[/color]
+[color=42546c]p[/color][color=ffffff]░████████[/color][color=647487]p[/color][color=ffffff]░████████[/color][color=8f9aa8]p[/color][color=96a0ad]p[/color][color=ffffff]░██[/color][color=e5e8eb]p[/color][color=ffffff]░███████[/color][color=bec4cc]p[/color][color=98a2af]pp[/color][color=939dab]p[/color][color=929daa]p[/color][color=ffffff]░██[/color][color=828f9d]p[/color][color=ffffff]░███████[/color][color=506175]dd[/color][color=485a6f]d[/color][color=435469]b[/color][color=3b4d63]b[/color][color=3b4c61]k[/color][color=ffffff]░██████[/color][color=2a3c53]k[/color][color=273a50]k[/color][color=263950]k[/color][color=ffffff]░████████[/color][color=21334a]kk[/color][color=2a3a50]bb[/color][color=213349]kk[/color][color=ffffff]░███████[/color][color=203147]hh[/color][color=ffffff]░██[/color][color=203045]hhh[/color][color=28364b]b[/color][color=ffffff]░██[/color][color=1f3044]hh[/color][color=ffffff]░██████[/color][color=1e2e41]aaa[/color][color=ffffff]░█████████████[/color][color=253243]hh[/color][color=ffffff]░████████[/color][color=243040]h[/color][color=1b293a]o[/color][color=ffffff]░██[/color][color=1b2939]oo[/color][color=ffffff]░███████[/color][color=1a2737]**[/color][color=ffffff]░██[/color][color=1b2635]*[/color]
+[color=43566d]p[/color][color=495b72]p[/color][color=516178]w[/color][color=57677c]w[/color][color=ffffff]░██[/color][color=5f6f83]pp[/color][color=68778a]pp[/color][color=ffffff]░██[/color][color=7c8999]p[/color][color=8692a1]pp[/color][color=8e9aa8]p[/color][color=ffffff]░██[/color][color=dee2e6]p[/color][color=ffffff]░██░██[/color][color=eef0f4]&[/color][color=ffffff]$$$$$$[/color][color=dfe2e6]pp[/color][color=99a3af]p[/color][color=98a2ae]p[/color][color=ffffff]░██░██[/color][color=748292]p[/color][color=748192]d[/color][color=697889]d[/color][color=657384]b[/color][color=59687b]b[/color][color=59687a]k[/color][color=4f5e71]k[/color][color=566477]d[/color][color=4d5b70]d[/color][color=465669]k[/color][color=3d4e62]kk[/color][color=38495e]kk[/color][color=33455a]k[/color][color=324459]k[/color][color=2e4056]k[/color][color=ffffff]░██[/color][color=273a4f]kk[/color][color=ffffff]░██[/color][color=22344b]k[/color][color=21334a]k[/color][color=2a3a50]bb[/color][color=ffffff]░██[/color][color=213349]k[/color][color=203348]hh[/color][color=203247]h[/color][color=ffffff]░██[/color][color=203147]hh[/color][color=203146]hh[/color][color=ffffff]░██[/color][color=203045]h[/color][color=28364b]b[/color][color=ffffff]░██[/color][color=1f3044]hh[/color][color=ffffff]░██[/color][color=1e2f43]a[/color][color=273548]kk[/color][color=1e2e41]aaaaa[/color][color=ffffff]░██[/color][color=1e2d40]aa[/color][color=ffffff]░██[/color][color=1d2d3e]a[/color][color=1d2c3e]aa[/color][color=ffffff]░██[/color][color=1c2b3d]o[/color][color=1c2a3c]oo[/color][color=ffffff]░██[/color][color=1c2a3b]o[/color][color=ffffff]░██[/color][color=1b2a3b]o[/color][color=1b293a]ooo[/color][color=ffffff]░██[/color][color=1b2939]o[/color][color=ffffff]░██[/color][color=232f3e]h[/color][color=ffffff]░██[/color][color=1a2737]**[/color][color=1a2736]**[/color][color=ffffff]░██[/color][color=1b2635]*[/color][color=ffffff]░██[/color][color=192634]*[/color]
+[color=4d5e74]w[/color][color=526379]w[/color][color=4b5d73]p[/color][color=526379]p[/color][color=ffffff]░██[/color][color=637386]pp[/color][color=6d7b8d]p[/color][color=738092]w[/color][color=ffffff]░██[/color][color=8792a1]w[/color][color=909ba9]w[/color][color=8b97a5]p[/color][color=949fac]p[/color][color=ffffff]░██$░██$░███████$$$[/color][color=dee2e5]pp[/color][color=ffffff]░██[/color][color=8e99a6]d[/color][color=ffffff]░███████[/color][color=596779]d[/color][color=526173]k[/color][color=49596c]k[/color][color=505e71]d[/color][color=465569]d[/color][color=3f4f63]k[/color][color=ffffff]░███████[/color][color=314056]d[/color][color=27394f]k[/color][color=ffffff]░██[/color][color=2c3c51]b[/color][color=2a3a50]b[/color][color=203348]hh[/color][color=ffffff]░██[/color][color=203247]h[/color][color=203147]hh[/color][color=28384d]b[/color][color=ffffff]░█████████[/color][color=1f3044]hhh[/color][color=ffffff]░█████[/color][color=1e2e41]aaaa[/color][color=ffffff]░███████[/color][color=253345]kk[/color][color=ffffff]░██[/color][color=1c2b3d]ooo[/color][color=ffffff]░██[/color][color=253142]h[/color][color=253141]hh[/color][color=ffffff]░██[/color][color=1b2a3b]o[/color][color=ffffff]░██[/color][color=242f40]h[/color][color=232f3f]hh[/color][color=1b2839]o[/color][color=ffffff]░██[/color][color=1a2738]*[/color][color=ffffff]░██[/color][color=1a2737]*[/color][color=ffffff]░█████████[/color][color=192634]*[/color][color=ffffff]░██[/color][color=131e2c]M[/color]
+[color=46586f]p[/color][color=4c5e74]pp[/color][color=54657a]p[/color][color=ffffff]░██[/color][color=6c7a8d]w[/color][color=667588]p[/color][color=6f7d8f]pp[/color][color=ffffff]░██[/color][color=8590a0]p[/color][color=8e99a8]p[/color][color=8f9aa7]p[/color][color=ccd1d7]p[/color][color=ffffff]░██[/color][color=edf0f4]&[/color][color=ffffff]░██$$[/color][color=eceff3]&&[/color][color=ffffff]$$[/color][color=dee3ea]#[/color][color=ffffff]░██$$$$░██[/color][color=8f99a4]k[/color][color=848f9c]kk[/color][color=788492]k[/color][color=788391]k[/color][color=6c7888]k[/color][color=6c7887]k[/color][color=ffffff]░██[/color][color=546273]k[/color][color=4a596b]kk[/color][color=415164]k[/color][color=ffffff]░██[/color][color=3c4a5e]b[/color][color=334458]k[/color][color=2f4054]k[/color][color=ffffff]░██[/color][color=26394d]h[/color][color=26384c]h[/color][color=ffffff]░██[/color][color=223347]h[/color][color=203146]hhh[/color][color=ffffff]░██[/color][color=203045]h[/color][color=28364b]bb[/color][color=1f3044]h[/color][color=ffffff]░██[/color][color=1e2f43]aaaa[/color][color=273548]kk[/color][color=1e2e41]aaa[/color][color=ffffff]░██[/color][color=1e2d40]aa[/color][color=ffffff]░██[/color][color=1d2d3e]a[/color][color=1d2c3e]a[/color][color=ffffff]░██[/color][color=1c2b3d]oo[/color][color=253243]h[/color][color=ffffff]░██[/color][color=1c2a3c]oo[/color][color=ffffff]░██[/color][color=1b2a3b]o[/color][color=243040]hh[/color][color=ffffff]░██[/color][color=1b293a]o[/color][color=1b2939]oo[/color][color=ffffff]░██[/color][color=232f3e]h[/color][color=ffffff]░███[/color][color=1a2736]***[/color][color=ffffff]░██[/color][color=192635]*[/color][color=ffffff]░██[/color][color=192634]*[/color][color=ffffff]░██[/color][color=1a2533]**[/color][color=131e2c]MM[/color][color=121d2b]MMMMMM[/color][color=192330]**[/color]
+[color=465970]p[/color][color=4d5f75]pp[/color][color=55667b]pp[/color][color=ffffff]░████[/color][color=727f91]p[/color][color=ffffff]░██[/color][color=8692a1]p[/color][color=909ba9]p[/color][color=909ba8]p[/color][color=d3d9e1]p[/color][color=ffffff]░██[/color][color=e3e7ed]M[/color][color=ffffff]░██$░███████[/color][color=c4ccd8]b[/color][color=ced6df]hh[/color][color=ffffff]$$░██[/color][color=919aa6]k[/color][color=ffffff]░███████[/color][color=556375]kk[/color][color=4b596c]k[/color][color=4b596b]k[/color][color=415163]k[/color][color=495769]b[/color][color=ffffff]░█████░██[/color][color=2f3e53]b[/color][color=ffffff]░██[/color][color=223246]h[/color][color=203045]h[/color][color=1f3044]hh[/color][color=ffffff]░██[/color][color=28364a]k[/color][color=1f3044]hh[/color][color=1e2f43]aa[/color][color=ffffff]░███████[/color][color=263447]kk[/color][color=ffffff]░██[/color][color=1d2d3e]a[/color][color=253345]kk[/color][color=1d2c3e]a[/color][color=ffffff]░██[/color][color=1c2b3d]oo[/color][color=ffffff]░█████░██[/color][color=1b2a3b]o[/color][color=ffffff]░██[/color][color=242f40]h[/color][color=1b2939]oo[/color][color=ffffff]░██[/color][color=1b2839]o[/color][color=1a2738]**[/color][color=ffffff]░██[/color][color=1a2737]*[/color][color=ffffff]░██░█████[/color][color=192634]*[/color][color=1a2533]*[/color][color=ffffff]░██[/color][color=131e2c]MM[/color][color=ffffff]░███████[/color][color=121d2a]MM[/color][color=ffffff]░██[/color][color=111c28]M[/color]
+[color=475a70]p[/color][color=4d5f75]pp[/color][color=55667b]p[/color][color=55657b]p[/color][color=5e6e82]p[/color][color=5f6e81]p[/color][color=697789]p[/color][color=687789]p[/color][color=728091]p[/color][color=728090]p[/color][color=7c8999]pp[/color][color=8793a1]pp[/color][color=98a2ae]p[/color][color=9aa2ae]p[/color][color=eef0f4]&&[/color][color=dce1e8]**[/color][color=eceef2]&&[/color][color=fdfdfd]@@[/color][color=fafafb]BB[/color][color=ffffff]$$$$[/color][color=acb9c9]ZZ[/color][color=c3ccd8]bb[/color][color=b9c4d2]qq[/color][color=f9fafb]BB[/color][color=f2f3f4]kk[/color][color=929ba6]kk[/color][color=87909c]kk[/color][color=7b8693]k[/color][color=7b8593]k[/color][color=6e7a89]kk[/color][color=616e7e]kk[/color][color=566475]k[/color][color=556474]h[/color][color=4a596a]hh[/color][color=415162]hh[/color][color=39495c]h[/color][color=404f61]b[/color][color=3b495c]b[/color][color=334356]h[/color][color=2f3f52]hh[/color][color=2a3b4f]h[/color][color=2a3a4e]h[/color][color=27364b]hh[/color][color=243449]h[/color][color=2c3a4f]b[/color][color=2a384c]b[/color][color=213245]h[/color][color=1f3044]hhh[/color][color=1e2f43]aaaa[/color][color=273548]kk[/color][color=1e2e41]aaaa[/color][color=1e2d40]aa[/color][color=1e2d3f]aa[/color][color=263346]kk[/color][color=1d2d3e]aa[/color][color=1d2c3e]aaaa[/color][color=1c2b3d]oo[/color][color=253243]hh[/color][color=1c2a3c]oo[/color][color=1c2a3b]oooo[/color][color=1b2a3b]oo[/color][color=243040]hh[/color][color=1b293a]oooo[/color][color=1b2939]oo[/color][color=1b2839]oo[/color][color=222e3d]aa[/color][color=1a2738]**[/color][color=1a2737]**[/color][color=1a2736]****[/color][color=1b2635]**[/color][color=ffffff]░██[/color][color=192634]*[/color][color=182533]****[/color][color=1a2533]**[/color][color=131e2c]MM[/color][color=121d2b]MMMMMM[/color][color=192330]**[/color][color=111c29]MMMM[/color][color=111c28]MM[/color][color=111b28]WW[/color][color=18222e]##[/color]
+[color=475970]p[/color][color=4e5f75]p[/color][color=4f6075]p[/color][color=56667a]p[/color][color=55657a]p[/color][color=5e6e81]pp[/color][color=677688]p[/color][color=667587]p[/color][color=717f90]pp[/color][color=7b8898]p[/color][color=7d8898]p[/color][color=8892a0]p[/color][color=8692a0]p[/color][color=9aa4b0]p[/color][color=97a0ac]b[/color][color=ffffff]$$[/color][color=d0d7e0]aa[/color][color=e1e5eb]##[/color][color=fbfcfd]@@[/color][color=e8ebf0]WW[/color][color=ffffff]$$$$[/color][color=fdfdfe]@@[/color][color=899ab2]YY[/color][color=eaedf1]&&[/color][color=fdfdfd]@@[/color][color=f4f5f6]kk[/color][color=9099a5]k[/color][color=959da8]b[/color][color=8a939f]b[/color][color=858f9b]k[/color][color=7a8592]kk[/color][color=6e7988]k[/color][color=6d7986]h[/color][color=606d7c]hh[/color][color=556373]h[/color][color=5b6878]b[/color][color=505d6f]b[/color][color=4a586a]h[/color][color=415062]hh[/color][color=39485b]hh[/color][color=334356]h[/color][color=334255]h[/color][color=2f3e51]h[/color][color=364357]b[/color][color=323f53]b[/color][color=2a3a4d]h[/color][color=26364a]hh[/color][color=233448]hh[/color][color=213245]h[/color][color=203144]a[/color][color=1e2f43]a[/color][color=273548]kk[/color][color=1e2e41]aaaaaa[/color][color=1e2d3f]aa[/color][color=263346]kk[/color][color=1d2d3e]aaaa[/color][color=1d2c3e]aaaa[/color][color=253243]hh[/color][color=1c2a3c]oooo[/color][color=1c2a3b]oooo[/color][color=243040]hh[/color][color=1b293a]oooo[/color][color=1b2939]oooo[/color][color=1b2839]oo[/color][color=1a2738]**[/color][color=1a2737]****[/color][color=1a2736]****[/color][color=192635]**[/color][color=192634]****[/color][color=ffffff]░██[/color][color=182533]*[/color][color=131e2c]MM[/color][color=121d2b]MMMMMMMM[/color][color=192330]**[/color][color=111c29]MM[/color][color=111c28]MMMM[/color][color=111b28]WW[/color][color=18222e]##[/color][color=111a27]WW[/color][color=111a26]WW[/color]
+[color=48596e]p[/color][color=4e5e73]p[/color][color=4c5e73]p[/color][color=55657a]p[/color][color=566579]p[/color][color=5e6c7f]p[/color][color=5c6c7f]p[/color][color=647486]pp[/color][color=6f7d8e]p[/color][color=717d8e]p[/color][color=7b8796]p[/color][color=768292]b[/color][color=808c9a]b[/color][color=85909e]d[/color][color=8f99a6]d[/color][color=8b95a1]k[/color][color=f6f6f7]kk[/color][color=e7ebf0]WW[/color][color=d9dee6]**[/color][color=f8f9fa]BB[/color][color=ffffff]$$$$[/color][color=eaedf2]&&[/color][color=ffffff]$$[/color][color=d3d9e2]aa[/color][color=eff1f4]88[/color][color=fafbfc]BB[/color][color=e3e5e8]k[/color][color=e4e6e9]b[/color][color=929ba6]b[/color][color=8d97a2]h[/color][color=838d99]h[/color][color=88919c]b[/color][color=7e8794]b[/color][color=788390]h[/color][color=6b7785]h[/color][color=6b7685]h[/color][color=606c7c]h[/color][color=667180]b[/color][color=5a6676]b[/color][color=546171]h[/color][color=495768]h[/color][color=505c6d]b[/color][color=475466]b[/color][color=404e60]h[/color][color=384759]hh[/color][color=324254]h[/color][color=3b475a]k[/color][color=364356]k[/color][color=2e3e50]h[/color][color=29394c]h[/color][color=303f52]k[/color][color=2e3c50]k[/color][color=253649]a[/color][color=223347]a[/color][color=223245]a[/color][color=203042]a[/color][color=283748]k[/color][color=263547]k[/color][color=1e2e41]aa[/color][color=263447]kk[/color][color=1e2d3f]aaaa[/color][color=253345]kk[/color][color=1d2c3e]aa[/color][color=253344]kk[/color][color=1c2b3d]oooo[/color][color=1c2a3c]oo[/color][color=1c2a3b]oo[/color][color=253141]hh[/color][color=1b2a3b]oooo[/color][color=1b293a]oo[/color][color=1b2939]oo[/color][color=232f3f]hh[/color][color=1b2839]oo[/color][color=1a2738]****[/color][color=222e3d]aa[/color][color=1c2736]oo[/color][color=1a2736]**[/color][color=192635]****[/color][color=1b2634]**[/color][color=1a2533]**[/color][color=182533]**[/color][color=131e2c]MMMM[/color][color=192432]**[/color][color=192431]**[/color][color=121d2b]MM[/color][color=121d2a]MM[/color][color=111c29]MM[/color][color=192230]##[/color][color=111c28]MM[/color][color=111b28]WWWW[/color][color=111a27]WW[/color][color=18212d]##[/color][color=111a26]WW[/color][color=101a25]WWWW[/color]
+[color=44566c]d[/color][color=4a5c71]d[/color][color=45566b]b[/color][color=4c5c70]bb[/color][color=556478]b[/color][color=5c697c]d[/color][color=657183]d[/color][color=5f6c7d]k[/color][color=687585]kk[/color][color=727f8d]kk[/color][color=7e8996]kk[/color][color=87919e]k[/color][color=8b95a1]d[/color][color=d3d6db]d[/color][color=d1d5da]k[/color][color=edf0f4]&&[/color][color=e4e8ed]MM[/color][color=dde2e9]##[/color][color=ffffff]$$$$[/color][color=dadfe7]**[/color][color=ffffff]$$[/color][color=d3d9e2]aa[/color][color=ebedf2]&&[/color][color=d9dfe6]**[/color][color=a6afbc]h[/color][color=a6afbb]h[/color][color=8a939e]hh[/color][color=7f8995]h[/color][color=7f8895]h[/color][color=747e8b]hh[/color][color=697382]h[/color][color=687381]h[/color][color=5c6977]hh[/color][color=505d6d]hh[/color][color=475565]h[/color][color=465464]a[/color][color=3d4c5d]aa[/color][color=374658]a[/color][color=3f4b5c]k[/color][color=394657]k[/color][color=313f51]a[/color][color=2c3b4d]aa[/color][color=283749]a[/color][color=283648]a[/color][color=243345]a[/color][color=243344]a[/color][color=223042]a[/color][color=293649]k[/color][color=283547]k[/color][color=1f2f40]a[/color][color=1d2d3e]a[/color][color=1d2c3e]aaaa[/color][color=1c2b3d]oo[/color][color=253243]hh[/color][color=1c2a3c]oo[/color][color=1c2a3b]oooo[/color][color=1b2a3b]oo[/color][color=243040]hh[/color][color=1b293a]oo[/color][color=1b2939]oooo[/color][color=1b2839]oo[/color][color=222e3d]aa[/color][color=1a2738]**[/color][color=1a2737]**[/color][color=1a2736]****[/color][color=1b2635]**[/color][color=192635]**[/color][color=192634]**[/color][color=182533]****[/color][color=1a2533]**[/color][color=131e2c]MM[/color][color=121d2b]MMMMMM[/color][color=192330]**[/color][color=111c29]MMMM[/color][color=111c28]MM[/color][color=111b28]WW[/color][color=18222e]##[/color][color=111a27]WWWW[/color][color=111a26]WW[/color][color=101a25]WW[/color][color=17202c]##[/color][color=101925]WWWW[/color][color=0f1824]WW[/color][color=0f1823]WW[/color][color=161f2a]MM[/color]
+[color=3d4e63]k[/color][color=435368]kk[/color][color=4b5a6e]k[/color][color=4b5a6d]k[/color][color=526173]kk[/color][color=5b697a]k[/color][color=616e7f]d[/color][color=6a7686]d[/color][color=647181]k[/color][color=6e7b8a]kk[/color][color=798492]kk[/color][color=828d99]k[/color][color=828c99]k[/color][color=98a0ab]k[/color][color=9ca4ae]d[/color][color=f1f2f5]d[/color][color=f0f2f4]k[/color][color=c5ced9]bb[/color][color=ffffff]$$$$$$[/color][color=d5dbe4]oo[/color][color=fafafb]BB[/color][color=eaedf2]&&[/color][color=fafbfc]BB[/color][color=e9ebed]bb[/color][color=9199a4]b[/color][color=8d95a0]h[/color][color=858e9a]h[/color][color=858e99]h[/color][color=798490]hh[/color][color=6f7a87]h[/color][color=757e8b]k[/color][color=6b7482]k[/color][color=6a7482]k[/color][color=5f6a79]k[/color][color=586574]a[/color][color=4d5a6a]a[/color][color=4d5968]a[/color][color=445161]aa[/color][color=3b495a]a[/color][color=424f5f]k[/color][color=3c4a5a]k[/color][color=354354]a[/color][color=303e50]a[/color][color=303d4e]a[/color][color=2b394a]aa[/color][color=273547]a[/color][color=263546]a[/color][color=233343]a[/color][color=2b394a]k[/color][color=283648]k[/color][color=212f41]a[/color][color=1f2e40]a[/color][color=1e2d3f]o[/color][color=1c2b3d]ooo[/color][color=1c2a3c]oo[/color][color=253142]hh[/color][color=1c2a3b]oo[/color][color=1b2a3b]oooo[/color][color=1b293a]oo[/color][color=242f40]hh[/color][color=1b2939]oo[/color][color=232f3f]hh[/color][color=1a2738]****[/color][color=222e3d]aa[/color][color=1a2737]**[/color][color=1c2736]oo[/color][color=192635]****[/color][color=1b2634]**[/color][color=192634]**[/color][color=1a2533]**[/color][color=182533]**[/color][color=131e2c]MM[/color][color=192432]**[/color][color=121d2b]MM[/color][color=192431]**[/color][color=121d2b]MM[/color][color=111c29]MM[/color][color=192230]##[/color][color=111c28]MM[/color][color=19222f]##[/color][color=111b28]WW[/color][color=111a27]WW[/color][color=18212d]##[/color][color=111a26]WW[/color][color=18212d]##[/color][color=101a25]WWWW[/color][color=171f2b]##[/color][color=0f1824]WW[/color][color=161f2a]MM[/color][color=0f1823]WWWW[/color][color=161d27]MM[/color][color=0e1721]&&[/color]
+[color=3c4d61]k[/color][color=415265]kk[/color][color=47576a]kk[/color][color=505f71]k[/color][color=566476]d[/color][color=5e6b7c]d[/color][color=576576]k[/color][color=606d7d]kk[/color][color=697685]k[/color][color=697584]k[/color][color=737e8c]kk[/color][color=7c8794]k[/color][color=818a97]b[/color][color=89929e]b[/color][color=848e9a]k[/color][color=abb1ba]kk[/color][color=f7f8f9]kh[/color][color=ebeef2]&&[/color][color=dae0e7]**[/color][color=eff1f5]88[/color][color=ffffff]$$$$[/color][color=e0e5eb]##[/color][color=ebecee]hh[/color][color=9da4ad]hh[/color][color=87909b]hh[/color][color=7e8893]hh[/color][color=737e8a]h[/color][color=737d8a]a[/color][color=697482]aa[/color][color=5e6b79]a[/color][color=5e6a77]a[/color][color=54606e]aa[/color][color=4a5766]aa[/color][color=414f5f]a[/color][color=414e5e]a[/color][color=394757]a[/color][color=394756]a[/color][color=344252]a[/color][color=3b4758]k[/color][color=364254]k[/color][color=2e3d4c]a[/color][color=293949]a[/color][color=293849]a[/color][color=253345]aa[/color][color=223143]a[/color][color=213042]o[/color][color=202e40]o[/color][color=283546]h[/color][color=263344]h[/color][color=1d2b3d]o[/color][color=1c2a3c]o[/color][color=1c2a3b]oooo[/color][color=1b2a3b]oo[/color][color=243040]hh[/color][color=1b293a]oo[/color][color=1b2939]oooo[/color][color=1b2839]oo[/color][color=222e3d]aa[/color][color=1a2738]**[/color][color=1a2737]**[/color][color=1a2736]****[/color][color=1b2635]**[/color][color=192635]**[/color][color=192634]**[/color][color=182533]****[/color][color=1a2533]**[/color][color=131e2c]MM[/color][color=121d2b]MMMMMM[/color][color=192330]**[/color][color=111c29]MMMM[/color][color=111c28]MM[/color][color=111b28]WW[/color][color=18222e]##[/color][color=111a27]WWWW[/color][color=111a26]WW[/color][color=101a25]WW[/color][color=17202c]##[/color][color=101925]WWWW[/color][color=0f1824]WW[/color][color=0f1823]WW[/color][color=161f2a]MM[/color][color=0e1722]&&[/color][color=0e1721]&&&&[/color][color=0e1720]&&[/color][color=151c25]MM[/color]
+[color=394a5e]k[/color][color=3f4f63]k[/color][color=465569]d[/color][color=4c5b6e]d[/color][color=455567]k[/color][color=4b5a6c]k[/color][color=4b596b]k[/color][color=536172]kk[/color][color=5b6979]k[/color][color=5a6879]k[/color][color=637080]k[/color][color=697584]b[/color][color=717c8a]b[/color][color=6b7786]k[/color][color=75808e]k[/color][color=74808d]h[/color][color=7c8793]h[/color][color=7c8693]h[/color][color=848e99]hh[/color][color=979fa9]h[/color][color=9ba2ac]b[/color][color=d1d5d9]b[/color][color=d0d3d8]h[/color][color=f5f6f7]hh[/color][color=ffffff]$$$$[/color][color=f0f1f3]h[/color][color=f1f2f3]b[/color][color=cacdd3]b[/color][color=c8ccd1]h[/color][color=8c959f]hh[/color][color=868f9a]h[/color][color=858e99]a[/color][color=7e8893]aa[/color][color=75808c]a[/color][color=7b838f]k[/color][color=727c88]k[/color][color=6d7783]a[/color][color=626d7a]aa[/color][color=586472]a[/color][color=586371]a[/color][color=4f5a69]a[/color][color=4f5a68]a[/color][color=465261]a[/color][color=4c5767]k[/color][color=455060]k[/color][color=3d4b59]a[/color][color=374554]aa[/color][color=31404f]a[/color][color=313f4f]a[/color][color=2c3a4b]a[/color][color=2b394a]o[/color][color=283647]o[/color][color=303c4d]h[/color][color=2c3849]h[/color][color=233142]o[/color][color=202e40]oo[/color][color=1f2d3e]o[/color][color=1f2d3d]o[/color][color=1d2b3c]o[/color][color=1c2b3c]o[/color][color=1b2a3b]o[/color][color=243040]hh[/color][color=1b293a]oooo[/color][color=1b2939]oo[/color][color=1b2839]oo[/color][color=222e3d]aa[/color][color=1a2738]**[/color][color=1a2737]****[/color][color=1a2736]**[/color][color=1b2635]**[/color][color=192635]**[/color][color=192634]****[/color][color=182533]**[/color][color=1a2533]**[/color][color=131e2c]MM[/color][color=121d2b]MMMMMMMM[/color][color=111c29]MMMM[/color][color=111c28]MMMM[/color][color=111b28]WW[/color][color=111a27]WWWW[/color][color=111a26]WWWW[/color][color=101a25]WW[/color][color=101925]WWWW[/color][color=0f1824]WWWW[/color][color=0f1823]WW[/color][color=161f2a]MM[/color][color=0e1721]&&&&[/color][color=0e1720]&&&&[/color][color=151c25]MM[/color][color=0e151f]&&&&[/color]
+[color=3f4e62]d[/color][color=445366]d[/color][color=3c4c5f]k[/color][color=415164]k[/color][color=49576a]d[/color][color=4f5c6e]d[/color][color=ffffff]You can write any text!       [/color][color=818a96]a[/color][color=7c8591]a[/color][color=7c8590]a[/color][color=757f8b]a[/color][color=7a838e]k[/color][color=727c87]k[/color][color=6d7783]a[/color][color=65707d]a[/color][color=6a7481]k[/color][color=626c7a]k[/color][color=5c6774]a[/color][color=535e6c]a[/color][color=303d3f]dd[/color][color=4f5a69]k[/color][color=485463]k[/color][color=414e5d]a[/color][color=394656]a[/color][color=404d5b]k[/color][color=3b4857]k[/color][color=334151]o[/color][color=2f3c4d]oo[/color][color=2a3849]o[/color][color=333e4e]h[/color][color=2e3a4a]h[/color][color=263343]o[/color][color=223040]o[/color][color=2b3746]h[/color][color=293545]h[/color][color=1f2e3f]o[/color][color=1d2c3d]oo[/color][color=1b2a3b]o[/color][color=242f40]hh[/color][color=1b2939]oo[/color][color=232f3f]hh[/color][color=1b2839]oo[/color][color=1a2738]**[/color][color=222e3d]aa[/color][color=1a2737]**[/color][color=1c2736]oo[/color][color=1a2736]**[/color][color=192635]****[/color][color=192634]**[/color][color=1a2533]**[/color][color=182533]**[/color][color=131e2c]MM[/color][color=303d3f]dd[/color][color=121d2b]MM[/color][color=192431]**[/color][color=121d2b]MM[/color][color=121d2a]MM[/color][color=111c29]MM[/color][color=192230]##[/color][color=19222f]##[/color][color=111b28]WWWW[/color][color=111a27]WW[/color][color=18212d]####[/color][color=101a25]WWWW[/color][color=101925]WW[/color][color=171f2b]##[/color][color=17161b]WW[/color][color=0f1823]WWWW[/color][color=0e1722]&&[/color][color=161d27]MM[/color][color=0e1721]&&[/color][color=0e1720]&&[/color][color=0e1620]&&&&[/color][color=151c25]MM[/color][color=0e151f]&&[/color][color=0d151e]&&[/color][color=0d141d]&&[/color]
+[color=324457]h[/color][color=38495b]hh[/color][color=3d4d60]h[/color][color=3d4d5f]h[/color][color=425163]h[/color][color=ffffff]                              [/color][color=77808b]a[/color][color=717a86]a[/color][color=707a85]a[/color][color=6a7580]aa[/color][color=636e7a]a[/color][color=636d7a]a[/color][color=5c6774]aa[/color][color=535e6c]a[/color][color=303d3f]dd[/color][color=232c2a]aa[/color][color=182123]##[/color][color=3b4756]o[/color][color=364251]oo[/color][color=303d4d]oo[/color][color=2b3949]o[/color][color=333f4d]h[/color][color=303b4a]h[/color][color=283545]o[/color][color=243142]o[/color][color=243141]o[/color][color=202e3e]o[/color][color=202d3e]o[/color][color=1f2b3c]oo[/color][color=1d2a3b]o[/color][color=24303f]a[/color][color=222e3d]a[/color][color=1a2737]****[/color][color=1a2736]****[/color][color=1b2635]**[/color][color=192634]****[/color][color=182533]****[/color][color=1a2533]**[/color][color=131e2c]MM[/color][color=121d2b]MMMM[/color][color=121d2a]MM[/color][color=303d3f]dd[/color][color=232c2a]aa[/color][color=182123]##[/color][color=111c28]MM[/color][color=111b28]WW[/color][color=18222e]##[/color][color=111a27]WWWW[/color][color=111a26]WW[/color][color=101a25]WW[/color][color=17202c]##[/color][color=101925]W[/color][color=da92b4]CCCC[/color][color=c07497]uuuuuuuu[/color][color=da92b4]CCCC[/color][color=17161b]W[/color][color=151c25]MM[/color][color=0e1620]&&[/color][color=0e151f]&&&&[/color][color=0d151e]&&[/color][color=141b23]WW[/color][color=0d141d]&&[/color][color=0c141d]&&&&[/color][color=0c141c]&&[/color][color=131921]WW[/color]
+[color=314155]h[/color][color=354558]h[/color][color=354458]h[/color][color=39485c]hh[/color][color=3f4d60]h[/color][color=ffffff]Or use [/color][color=ff0000]color[/color][color=ffffff]!                 [/color][color=707985]k[/color][color=6b7581]k[/color][color=6b7580]k[/color][color=66707c]k[/color][color=606a77]o[/color][color=596471]oo[/color][color=525e6b]o[/color][color=525d6b]o[/color][color=4b5665]o[/color][color=525c69]h[/color][color=4b5563]h[/color][color=182123]##[/color][color=3d4a58]o[/color][color=374453]oo[/color][color=32404f]o[/color][color=323f4e]o[/color][color=2d3a49]o[/color][color=353f4f]h[/color][color=323c4c]h[/color][color=293645]o[/color][color=263342]o[/color][color=263242]o[/color][color=222f3f]o[/color][color=212e3e]*[/color][color=1e2b3c]**[/color][color=1d2a3a]*[/color][color=25303f]a[/color][color=232f3e]a[/color][color=1b2838]*[/color][color=1a2737]*[/color][color=1a2736]**[/color][color=192635]****[/color][color=1b2634]**[/color][color=192634]**[/color][color=182533]**[/color][color=131e2c]MMMM[/color][color=192432]**[/color][color=121d2b]MM[/color][color=303d3f]dd[/color][color=121d2a]MM[/color][color=111c29]MM[/color][color=303d3f]dd[/color][color=232c2a]aaaaaa[/color][color=182123]##[/color][color=18212d]##[/color][color=111a26]WW[/color][color=18212d]##[/color][color=101a25]WW[/color][color=101925]WW[/color][color=171f2b]#[/color][color=c07497]uu[/color][color=da92b4]CC[/color][color=e69bbe]0000000000000000[/color][color=da92b4]CC[/color][color=c07497]uu[/color][color=141c24]M[/color][color=0d151e]&&[/color][color=0d141d]&&[/color][color=131a22]WW[/color][color=0c141d]&&[/color][color=131a22]WW[/color][color=0c141c]&&[/color][color=0c131b]88[/color][color=131920]WW[/color][color=0b111a]88[/color]
+[color=2e3e52]h[/color][color=314155]hh[/color][color=364558]h[/color][color=364457]h[/color][color=3a485b]h[/color][color=ffffff]                              [/color][color=232c2a]aa[/color][color=5b6572]o[/color][color=57616e]oo[/color][color=515b69]o[/color][color=515b68]o[/color][color=4a5563]oo[/color][color=44505e]o[/color][color=303d3f]dddddd[/color][color=33404e]o[/color][color=2f3b4a]oo[/color][color=2a3646]oo[/color][color=273343]o[/color][color=2d3947]a[/color][color=2b3645]a[/color][color=232f3f]*[/color][color=202d3c]*[/color][color=303d3f]dd[/color][color=1e2a39]*[/color][color=1c2938]**[/color][color=1a2736]*[/color][color=1b2635]**[/color][color=192634]****[/color][color=182533]****[/color][color=1a2533]**[/color][color=303d3f]dd[/color][color=121d2b]MMMM[/color][color=121d2a]MM[/color][color=303d3f]dddd[/color][color=182123]##[/color][color=111c28]MM[/color][color=25232c]**[/color][color=232c2a]aaaa[/color][color=182123]##[/color][color=111a26]WW[/color][color=101a25]WW[/color][color=17202c]##[/color][color=101925]WWWW[/color][color=0f1824]W[/color][color=c07497]uu[/color][color=da92b4]CC[/color][color=e69bbe]00[/color][color=f3b8d3]pppppppppppppppp[/color][color=e69bbe]00[/color][color=da92b4]CC[/color][color=c07497]uu[/color][color=0c141d]&&&[/color][color=0c141c]&&[/color][color=131921]WW[/color][color=0b121a]8888[/color][color=0b111a]88[/color][color=0b1119]88[/color][color=12181f]WW[/color]
+[color=2b3b4e]h[/color][color=2f3e51]h[/color][color=364357]b[/color][color=3a475a]b[/color][color=314153]h[/color][color=364557]h[/color][color=ffffff]Or a [url=test]l[/url][url=test]i[/url][url=test]n[/url][url=test]k[/url][url=test]![/url]                    [/color][color=182123]####[/color][color=4c5865]o[/color][color=475361]o[/color][color=4e5865]h[/color][color=4a5461]h[/color][color=303d3f]dd[/color][color=232c2a]aaaaaa[/color][color=182123]##[/color][color=2b3747]*[/color][color=273444]*[/color][color=273443]*[/color][color=243040]**[/color][color=212e3d]*[/color][color=303d3f]dd[/color][color=182123]####[/color][color=1a2735]*[/color][color=192634]***[/color][color=182533]**[/color][color=1a2533]**[/color][color=131e2c]MM[/color][color=121d2b]MM[/color][color=303d3f]dd[/color][color=182123]##[/color][color=192330]**[/color][color=111c29]MMMM[/color][color=111c28]MM[/color][color=182123]##[/color][color=25232c]******[/color][color=18171b]WW[/color][color=182123]##[/color][color=17202c]##[/color][color=101925]WWWW[/color][color=0f1824]WWWW[/color][color=0f1823]WW[/color][color=0e1722]&[/color][color=c07497]uu[/color][color=e69bbe]00[/color][color=f3b8d3]pppppppppppppppppppp[/color][color=e69bbe]00[/color][color=c07497]uu[/color][color=17161b]W[/color][color=131921]WW[/color][color=0b121a]88[/color][color=0b111a]8888[/color][color=0b1119]88[/color][color=12181f]WW[/color][color=0b1118]88[/color][color=0b1017]88[/color]
+[color=313f52]k[/color][color=344154]k[/color][color=2b3b4e]h[/color][color=2f3f51]h[/color][color=364457]k[/color][color=3a475a]k[/color][color=ffffff]                              [/color][color=4b5765]o[/color][color=475361]o[/color][color=475260]o[/color][color=44505e]o[/color][color=4c5562]h[/color][color=47505f]h[/color][color=303d3f]dddddd[/color][color=232c2a]aa[/color][color=303d3f]dddd[/color][color=182123]##[/color][color=25313f]*[/color][color=222f3d]*[/color][color=212e3c]*[/color][color=1e2b3a]*[/color][color=303d3f]dddd[/color][color=232c2a]aa[/color][color=182533]**[/color][color=131e2c]MM[/color][color=192432]**[/color][color=121d2b]MM[/color][color=192431]**[/color][color=303d3f]dd[/color][color=232c2a]aa[/color][color=182123]##[/color][color=111c28]MM[/color][color=19222f]##[/color][color=111b28]WW[/color][color=25232c]**[/color][color=232c2a]aa[/color][color=25232c]**[/color][color=18171b]WWWWWW[/color][color=232c2a]aa[/color][color=18171b]WW[/color][color=161f2a]MM[/color][color=0f1823]WW[/color][color=0e1722]&&&&[/color][color=161d27]MM[/color][color=161d26]M[/color][color=c07497]uu[/color][color=f3b8d3]pppppppp[/color][color=000000]  [/color][color=f3b8d3]pppp[/color][color=000000]  [/color][color=f3b8d3]pppppppp[/color][color=c07497]uu[/color][color=17161b]W[/color][color=0b111a]88[/color][color=0b1119]8888[/color][color=0b1118]88[/color][color=12171e]&&[/color][color=0b1017]88[/color][color=0a1017]8888[/color]
+[color=253547]a[/color][color=283749]a[/color][color=283648]a[/color][color=2a394a]aa[/color][color=2d3b4d]a[/color][color=ffffff]Or make something transparent:[/color][color=182123]##[/color][color=3e4957]*[/color][color=3b4655]*[/color][color=3b4654]*[/color][color=394452]**[/color][color=35404f]*[/color][color=35404e]*[/color][color=313d4a]*[/color][color=303d3f]dd[/color][color=232c2a]aa[/color][color=182123]##[/color][color=273340]*[/color][color=24303e]*[/color][color=232f3d]*[/color][color=202d3a]**[/color][color=1e2b39]*[/color][color=303d3f]dd[/color][color=232c2a]aaaaaa[/color][color=182123]##[/color][color=192330]**[/color][color=111c29]MM[/color][color=111c28]MM[/color][color=303d3f]dd[/color][color=232c2a]aaaa[/color][color=303d3f]dddd[/color][color=25232c]******[/color][color=18171b]WWWWWWWWWWWWWWWW[/color][color=0e1720]&&[/color][color=151c25]MM[/color][color=0e1620]&&[/color][color=303d3f]dd[/color][color=0d151e]&[/color][color=da92b4]CC[/color][color=e69bbe]00[/color][color=f3b8d3]pppppp[/color][color=000000]        [/color][color=f3b8d3]pppppp[/color][color=e69bbe]00[/color][color=da92b4]CC[/color][color=27252e]o[/color][color=17161b]WW[/color][color=0a1017]88[/color][color=11161c]&&[/color][color=0a0f15]%%%%[/color][color=090e14]%%%%[/color][color=111519]&&[/color]
+[color=233244]a[/color][color=253445]aa[/color][color=283647]a[/color][color=273646]a[/color][color=293949]a[/color][color=ffffff] [/color][color=2c3a4b]a[/color][color=344150]k[/color][color=364353]k[/color][color=2e3c4c]o[/color][color=303e4e]oo[/color][color=334151]o[/color][color=334050]o[/color][color=364252]o[/color][color=364251]o[/color][color=384554]o[/color][color=404b59]h[/color][color=424c5a]h[/color][color=394655]o[/color][color=3b4857]oo[/color][color=3d4a58]o[/color][color=3d4957]o[/color][color=3e4a58]o[/color][color=3e4a57]oo[/color][color=454f5c]hh[/color][color=303d3f]dd[/color][color=232c2a]aa[/color][color=303d3f]d[/color][color=ffffff] [/color][color=232c2a]aa[/color][color=182123]##[/color][color=35404e]*[/color][color=323e4b]*[/color][color=313d4a]*[/color][color=2f3a48]**[/color][color=2c3846]*[/color][color=2e3845]*[/color][color=2b3542]*[/color][color=182123]##[/color][color=26323f]*[/color][color=232f3d]*[/color][color=1e2936]M[/color][color=1b2633]MM[/color][color=192432]M[/color][color=303d3f]dd[/color][color=232c2a]aaaaaaaaaa[/color][color=182123]##[/color][color=111b28]WWWW[/color][color=111a27]WW[/color][color=18212d]##[/color][color=303d3f]dd[/color][color=101a25]WW[/color][color=25232c]****[/color][color=18171b]WWWWWWWW[/color][color=25232c]**[/color][color=18171b]WWWWWWWWWWWWWW[/color][color=141c24]MM[/color][color=303d3f]d[/color][color=c07497]uu[/color][color=da92b4]CC[/color][color=e693ba]LL[/color][color=e69bbe]000000[/color][color=000000]  [/color][color=e69bbe]0000[/color][color=000000]  [/color][color=e69bbe]000000[/color][color=e693ba]LL[/color][color=da92b4]CC[/color][color=c07497]uu[/color][color=17161b]WWW[/color][color=090e14]%%[/color][color=11151a]&&[/color][color=090e14]%%%%[/color][color=090d12]%%%%[/color]
+[color=213041]a[/color][color=223243]a[/color][color=223143]a[/color][color=243344]aa[/color][color=263446]a[/color][color=ffffff]'Anything is possible'        [/color][color=182123]##[/color][color=303c4a]*[/color][color=2f3a48]*[/color][color=2f3a47]*[/color][color=2d3946]**[/color][color=2a3643]*[/color][color=293542]*[/color][color=273441]*[/color][color=303d3f]dddd[/color][color=182123]##[/color][color=1a2532]M[/color][color=192331]MM[/color][color=17212f]M[/color][color=17212e]M[/color][color=15202d]M[/color][color=232c2a]aaaa[/color][color=303d3f]dd[/color][color=232c2a]aa[/color][color=182123]##[/color][color=18222e]##[/color][color=111a27]WW[/color][color=111a26]WWWW[/color][color=101a25]WW[/color][color=232c2a]aa[/color][color=25232c]****[/color][color=18171b]WWWWWWWWWWWW[/color][color=303d3f]dd[/color][color=18171b]WWWWWWWWWWWWWW[/color][color=232c2a]a[/color][color=da92b4]CC[/color][color=e693ba]LLLLLL[/color][color=da92b4]CC[/color][color=e693ba]LL[/color][color=da92b4]CC[/color][color=e693ba]LLLL[/color][color=da92b4]CC[/color][color=e693ba]LL[/color][color=da92b4]CC[/color][color=e693ba]LLLLLL[/color][color=da92b4]CC[/color][color=27252e]o[/color][color=17161b]WW[/color][color=101419]&&[/color][color=090e13]%%[/color][color=090d12]%%[/color][color=17161b]WWWW[/color][color=090c10]%%[/color]
+[color=1f2d3f]o[/color][color=202e40]o[/color][color=283546]h[/color][color=2a3747]h[/color][color=212f41]o[/color][color=233142]o[/color][color=ffffff]    - Sean Murray             [/color][color=2d3946]*[/color][color=2c3845]*[/color][color=2b3744]*[/color][color=293542]**[/color][color=273441]*[/color][color=293441]*[/color][color=27323f]*[/color][color=303d3f]dd[/color][color=232c2a]aaaa[/color][color=182123]####[/color][color=16202d]M[/color][color=141f2c]MM[/color][color=131e2b]M[/color][color=131e2a]M[/color][color=111c28]M[/color][color=111b28]WW[/color][color=232c2a]aa[/color][color=111a27]WWWW[/color][color=111a26]WW[/color][color=101a25]WW[/color][color=17202c]##[/color][color=25232c]****[/color][color=232c2a]aa[/color][color=18171b]WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW[/color][color=303d3f]dd[/color][color=232c2a]a[/color][color=da92b4]CC[/color][color=e693ba]LLLL[/color][color=da92b4]CC[/color][color=2e262a]ll[/color][color=da92b4]CC[/color][color=c07497]uu[/color][color=da92b4]CCCC[/color][color=c07497]uu[/color][color=da92b4]CC[/color][color=2e262a]ll[/color][color=da92b4]CC[/color][color=e693ba]LLLL[/color][color=da92b4]CC[/color][color=17161b]W[/color][color=52505b]OO[/color][color=17161b]WW[/color][color=090d11]%%[/color][color=17161b]WWWWWW[/color][color=080c10]%%[/color]
+[color=263243]h[/color][color=273343]h[/color][color=1e2c3d]o[/color][color=202d3e]o[/color][color=283444]h[/color][color=293545]h[/color][color=1f2e3f]o[/color][color=213040]o[/color][color=212f3f]o[/color][color=223040]o[/color][color=2a3645]h[/color][color=2c3747]h[/color][color=52505b]OO[/color][color=27252e]oooo[/color][color=17161b]WWWW[/color][color=293544]*[/color][color=2a3645]*[/color][color=2c3644]o[/color][color=2d3745]o[/color][color=2a3644]****[/color][color=303d3f]dddddd[/color][color=232c2a]aa[/color][color=182123]##[/color][color=25232c]****************[/color][color=131d2a]W[/color][color=111b28]WWW[/color][color=18212d]##[/color][color=232c2a]aa[/color][color=18212d]##[/color][color=101a25]WWWW[/color][color=171f2b]##[/color][color=25232c]****[/color][color=18171b]WWWWWWWWWW[/color][color=25232c]**[/color][color=18171b]WWWWWWWWWWWWWWWWWWWWWWWWW[/color][color=da92b4]CC[/color][color=e693ba]LL[/color][color=c07497]uu[/color][color=2e262a]ll[/color][color=bfdee8]aa[/color][color=3340b3]??[/color][color=dea698]OOOOOOOO[/color][color=3340b3]??[/color][color=bfdee8]aa[/color][color=2e262a]ll[/color][color=c07497]uu[/color][color=e693ba]LL[/color][color=da92b4]CC[/color][color=52505b]OOOOO[/color][color=17161b]WWWWWWWWWW[/color]
+[color=1b2939]o[/color][color=1c2a3a]oo[/color][color=1d2b3b]o[/color][color=1d2a3b]o[/color][color=1e2b3b]o[/color][color=52505b]OO[/color][color=27252e]oo[/color][color=52505b]OO[/color][color=27252e]oo[/color][color=52505b]OO[/color][color=27252e]oo[/color][color=17161b]WWWWWW[/color][color=24303d]*[/color][color=25313e]*[/color][color=27313e]**[/color][color=202a38]MM[/color][color=1f2937]MM[/color][color=303d3f]dd[/color][color=232c2a]aa[/color][color=182123]##[/color][color=25232c]**********[/color][color=232c2a]aa[/color][color=25232c]********[/color][color=17202c]##[/color][color=25232c]**[/color][color=232c2a]aa[/color][color=25232c]**[/color][color=0f1823]WW[/color][color=25232c]******[/color][color=18171b]WWWWWWWWWWWWWWWWWWWWWWWWWW[/color][color=25232c]**[/color][color=18171b]WWWWWWWWWWW[/color][color=da92b4]CC[/color][color=e693ba]LL[/color][color=c07497]uu[/color][color=dea698]OO[/color][color=ffffff]$$[/color][color=4fd4ff]mm[/color][color=fed1c6]oooooooo[/color][color=4fd4ff]mm[/color][color=ffffff]$$[/color][color=dea698]OO[/color][color=c07497]uu[/color][color=e693ba]LL[/color][color=da92b4]CC[/color][color=52505b]OOO[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=52505b]OO[/color][color=17161b]WWWWWW[/color]
+[color=1b2839]oo[/color][color=52505b]OOOOOOOO[/color][color=27252e]oo[/color][color=52505b]OO[/color][color=27252e]oo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWWWW[/color][color=1b2633]MM[/color][color=222d39]**[/color][color=1b2632]MMM[/color][color=1a2532]M[/color][color=232c2a]aa[/color][color=25232c]**********************************[/color][color=18171b]WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW[/color][color=c07497]uu[/color][color=e693ba]LL[/color][color=da92b4]CC[/color][color=c07497]uu[/color][color=e89f8d]0000[/color][color=fed1c6]oooooooo[/color][color=e89f8d]0000[/color][color=c07497]uu[/color][color=da92b4]CC[/color][color=e693ba]LL[/color][color=c07497]uu[/color][color=27252e]o[/color][color=52505b]OOOO[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWWWW[/color]
+[color=52505b]OO[/color][color=27252e]oo[/color][color=52505b]OO[/color][color=27252e]oooo[/color][color=52505b]OO[/color][color=27252e]oooooo[/color][color=17161b]WWWWWWWWWW[/color][color=17212e]MMMM[/color][color=25232c]**[/color][color=232c2a]aa[/color][color=25232c]**********[/color][color=303d3f]dd[/color][color=25232c]********************[/color][color=18171b]WWWWWWWWWW[/color][color=25232c]**[/color][color=18171b]WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW[/color][color=c07497]uu[/color][color=da92b4]CC[/color][color=c07497]uu[/color][color=fed1c6]oooooooooooooooo[/color][color=c07497]uu[/color][color=da92b4]CC[/color][color=c07497]uu[/color][color=27252e]ooooo[/color][color=52505b]OO[/color][color=27252e]oo[/color][color=52505b]OO[/color][color=17161b]WWWWWW[/color]
+[color=52505b]OOOOOO[/color][color=27252e]oo[/color][color=52505b]OO[/color][color=27252e]oooooo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWWWWWW[/color][color=27252e]oo[/color][color=25232c]**************[/color][color=303d3f]dd[/color][color=232c2a]aa[/color][color=182123]##[/color][color=25232c]**********[/color][color=232c2a]aa[/color][color=25232c]******[/color][color=18171b]WW[/color][color=25232c]**[/color][color=18171b]WWWWWWWWWWWWWWWW[/color][color=303d3f]dd[/color][color=18171b]WWWWWWWWWWWW[/color][color=000000]$$[/color][color=18171b]WWWWWWWWWWW[/color][color=c07497]uuuu[/color][color=2e262a]ll[/color][color=c07497]uu[/color][color=fed1c6]oooo[/color][color=dea698]OOOO[/color][color=fed1c6]oooo[/color][color=c07497]uu[/color][color=2e262a]ll[/color][color=c07497]uuuu[/color][color=27252e]ooooo[/color][color=52505b]OO[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWWWW[/color]
+[color=27252e]oo[/color][color=52505b]OO[/color][color=27252e]oo[/color][color=52505b]OO[/color][color=27252e]oooooo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWWWWWW[/color][color=27252e]oo[/color][color=25232c]********[/color][color=232c2a]aa[/color][color=25232c]******[/color][color=303d3f]dd[/color][color=232c2a]aaaa[/color][color=18171b]WWWWWW[/color][color=25232c]**********[/color][color=18171b]WWWWWW[/color][color=25232c]**[/color][color=18171b]WWWWWWWWWWWWWW[/color][color=25232c]**[/color][color=18171b]WWWWWWWWWW[/color][color=000000]$$[/color][color=18171b]WW[/color][color=000000]$$$$[/color][color=18171b]WWWWW[/color][color=c07497]uu[/color][color=da92b4]CC[/color][color=e69bbe]00[/color][color=c07497]uuuu[/color][color=2e262a]llll[/color][color=ffffff]$$$$[/color][color=2e262a]llll[/color][color=c07497]uuuu[/color][color=e69bbe]00[/color][color=da92b4]CC[/color][color=c07497]uu[/color][color=27252e]ooo[/color][color=52505b]OO[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWWWW[/color]
+[color=52505b]OO[/color][color=27252e]oo[/color][color=52505b]OO[/color][color=27252e]oooooooooo[/color][color=17161b]WWWWWWWW[/color][color=25232c]******************[/color][color=303d3f]dd[/color][color=232c2a]aaaa[/color][color=182123]####[/color][color=18171b]WWWWWWWWWWWWWWWWWWWWWWWW[/color][color=000000]$$[/color][color=18171b]WW[/color][color=000000]$$[/color][color=18171b]WWWWWWWWWWWWWWWW[/color][color=000000]$$$$$$[/color][color=232c2a]aa[/color][color=000000]$$[/color][color=18171b]WWWWWWW[/color][color=c07497]uu[/color][color=141213]^^^^[/color][color=c07497]uuuu[/color][color=ffffff]$$[/color][color=7d1919]iiii[/color][color=ffffff]$$[/color][color=c07497]uuuu[/color][color=141213]^^^^[/color][color=c07497]uu[/color][color=27252e]ooooooooo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWW[/color]
+[color=27252e]oo[/color][color=52505b]OO[/color][color=27252e]oooooooo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWWWW[/color][color=27252e]oo[/color][color=25232c]**********[/color][color=18171b]WWWWWWWWWWWW[/color][color=303d3f]dd[/color][color=18171b]WWWWWWWWWWWWWWWWWWWWWW[/color][color=000000]$$$$$$[/color][color=18171b]WW[/color][color=000000]$$[/color][color=18171b]WWWW[/color][color=000000]$$[/color][color=18171b]WWWWWWWWWW[/color][color=000000]$$$$$$$$$$$$$$[/color][color=18171b]WWWWW[/color][color=c07497]uu[/color][color=191718],,[/color][color=141213]^^^^^^[/color][color=7d1919]ii[/color][color=a01b1b]<<<<[/color][color=7d1919]ii[/color][color=141213]^^^^^^[/color][color=191718],,[/color][color=c07497]uu[/color][color=27252e]ooooooooo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWW[/color]
+[color=27252e]oooooooooo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWWWW[/color][color=25232c]**********[/color][color=18171b]WWWWWWWWWWWWWWWW[/color][color=232c2a]aa[/color][color=25232c]**[/color][color=18171b]WWWWWWWWWWWWWWWW[/color][color=000000]$$$$$$$$$$$$[/color][color=18171b]WW[/color][color=000000]$$$$[/color][color=18171b]WW[/color][color=000000]$$[/color][color=18171b]WWWWWW[/color][color=000000]$$$$$$$$$$$$$$$$$$[/color][color=18171b]WWW[/color][color=e0ced7]hh[/color][color=ffffff]$$[/color][color=191718],,[/color][color=100e0f]``[/color][color=141213]^^[/color][color=191718],,,,,,,,[/color][color=141213]^^[/color][color=100e0f]``[/color][color=191718],,[/color][color=ffffff]$$[/color][color=e0ced7]hh[/color][color=27252e]ooooooooooo[/color][color=17161b]WWWWWW[/color]
+[color=27252e]oooooooooooo[/color][color=17161b]WWWWWW[/color][color=25232c]********[/color][color=18171b]WWWWWWWW[/color][color=000000]$$$$$$[/color][color=18171b]WWWWWWWWWWWWWWWWWWWWWW[/color][color=000000]$$[/color][color=18171b]WW[/color][color=000000]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[/color][color=bc7c6c]vv[/color][color=e0ced7]hh[/color][color=ffffff]$$[/color][color=000000]    [/color][color=141213]^^[/color][color=191718],,,,,,,,[/color][color=141213]^^[/color][color=000000]    [/color][color=ffffff]$$[/color][color=e0ced7]hh[/color][color=bc7c6c]vv[/color][color=27252e]ooooooooo[/color][color=17161b]WWWWWW[/color]
+[color=27252e]oooooooo[/color][color=17161b]WWWWWWWW[/color][color=25232c]******[/color][color=18171b]WWWWWW[/color][color=000000]$$$$[/color][color=18171b]WW[/color][color=000000]$$$$[/color][color=18171b]WW[/color][color=000000]$$$$[/color][color=18171b]WWWWWWWWWWWWWW[/color][color=000000]$$[/color][color=18171b]WWWW[/color][color=000000]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[/color][color=fed1c6]oo[/color][color=e89f8d]00[/color][color=e0ced7]hh[/color][color=000000]  [/color][color=2e262a]ll[/color][color=100e0f]``[/color][color=141213]^^^^^^^^[/color][color=100e0f]``[/color][color=2e262a]ll[/color][color=000000]  [/color][color=e0ced7]hh[/color][color=e89f8d]00[/color][color=fed1c6]oo[/color][color=27252e]ooooooo[/color][color=17161b]WWWW[/color][color=27252e]oo[/color][color=17161b]WW[/color]
+[color=27252e]oooooo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWW[/color][color=25232c]******[/color][color=18171b]WWWW[/color][color=000000]$$$$[/color][color=18171b]WW[/color][color=000000]$$$$$$$$$$$$[/color][color=18171b]WW[/color][color=000000]$$$$[/color][color=18171b]WW[/color][color=000000]$$[/color][color=18171b]WWWW[/color][color=000000]$$[/color][color=18171b]WW[/color][color=000000]$$[/color][color=18171b]WW[/color][color=000000]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[/color][color=bc7c6c]vv[/color][color=000000]  [/color][color=100e0f]``[/color][color=282426]II[/color][color=191718],,[/color][color=100e0f]````````[/color][color=191718],,[/color][color=282426]II[/color][color=100e0f]``[/color][color=000000]  [/color][color=bc7c6c]vv[/color][color=27252e]ooooooooo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWW[/color]
+[color=27252e]oooo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWW[/color][color=25232c]**[/color][color=18171b]WWWWWW[/color][color=000000]$$$$[/color][color=18171b]WW[/color][color=000000]$$$$$$$$$$$$$$$$$$$$[/color][color=18171b]WW[/color][color=000000]$$[/color][color=18171b]WW[/color][color=000000]$$$$[/color][color=18171b]WW[/color][color=000000]$$[/color][color=18171b]WW[/color][color=000000]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[/color][color=2e262a]ll[/color][color=191718],,[/color][color=2e262a]llll[/color][color=191718],,[/color][color=282426]II[/color][color=2e262a]llll[/color][color=191718],,[/color][color=282426]II[/color][color=100e0f]``[/color][color=27252e]ooooooooooo[/color][color=17161b]WWWWWWWW[/color]
+[color=27252e]oo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WWWW[/color][color=18171b]WWWWWW[/color][color=000000]$$[/color][color=18171b]WW[/color][color=000000]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[/color][color=18171b]WW[/color][color=000000]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[/color][color=100e0f]````````````````````[/color][color=27252e]ooooooooooooooo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WW[/color]
+[color=17161b]WWWWWWWW[/color][color=18171b]WW[/color][color=000000]$$$$[/color][color=18171b]WW[/color][color=000000]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[/color][color=a6a6a6]LL[/color][color=ffffff]$$$$[/color][color=a6a6a6]LLLL[/color][color=ffffff]$$$$[/color][color=a6a6a6]LL[/color][color=000000]$[/color][color=27252e]oooooooooooooooo[/color][color=17161b]WW[/color][color=27252e]oo[/color][color=17161b]WW[/color]
+[color=27252e]oo[/color][color=17161b]WWWW[/color][color=000000]$$$$$$[/color][color=18171b]WW[/color][color=000000]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[/color][color=a6a6a6]LLLL[/color][color=000000]$$$$[/color][color=a6a6a6]LLLL[/color][color=000000]$$$$$[/color][color=27252e]oooooooooooooo[/color][color=17161b]WWWWWW[/color]
+[color=17161b]WWWW[/color][color=000000]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[/color][color=27252e]oooooooooooooo[/color][color=17161b]WWWWWW[/color]
+[color=17161b]WW[/color][color=000000]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[/color][color=27252e]oooooooooooo[/color][color=17161b]WWWWWW[/color]
+[color=000000]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$[/color][color=27252e]oooooooooooo[/color][color=17161b]WWWW[/color]"
+scroll_active = false
+autowrap_mode = 0
+justification_flags = 160
+custom_effects = [ExtResource("3_1e6js"), SubResource("RichTextEffect_17ori"), SubResource("RichTextEffect_1e6js"), SubResource("RichTextEffect_t0kni"), SubResource("RichTextEffect_k3mpm"), SubResource("RichTextEffect_3qux0"), SubResource("RichTextEffect_rbvhi"), SubResource("RichTextEffect_dpjts"), SubResource("RichTextEffect_h8i6e"), SubResource("RichTextEffect_7ylgk"), SubResource("RichTextEffect_70vj6"), SubResource("RichTextEffect_sdrcg"), SubResource("RichTextEffect_1crd1"), SubResource("RichTextEffect_8igvh"), SubResource("RichTextEffect_v80sm"), SubResource("RichTextEffect_xrdle"), SubResource("RichTextEffect_q7x7j"), SubResource("RichTextEffect_1aqkd"), SubResource("RichTextEffect_jr8g2"), SubResource("RichTextEffect_wx7pd"), SubResource("RichTextEffect_oi8d1"), SubResource("RichTextEffect_6ioua"), SubResource("RichTextEffect_yu8rq"), SubResource("RichTextEffect_njf13"), SubResource("RichTextEffect_j06uu"), SubResource("RichTextEffect_dan3q"), SubResource("RichTextEffect_gglu6"), SubResource("RichTextEffect_wy7g1"), SubResource("RichTextEffect_5f45d"), SubResource("RichTextEffect_kligo"), SubResource("RichTextEffect_8g0i5"), SubResource("RichTextEffect_4srbo"), SubResource("RichTextEffect_vb15w"), SubResource("RichTextEffect_twr3v"), SubResource("RichTextEffect_bpxjk"), SubResource("RichTextEffect_55nku"), SubResource("RichTextEffect_40jpu"), SubResource("RichTextEffect_el8mm"), SubResource("RichTextEffect_3cdim"), SubResource("RichTextEffect_sk7d6"), SubResource("RichTextEffect_bta47"), SubResource("RichTextEffect_yids5"), SubResource("RichTextEffect_64iav"), SubResource("RichTextEffect_x2dlr"), SubResource("RichTextEffect_1uw4w"), SubResource("RichTextEffect_yc7jf"), SubResource("RichTextEffect_rutrv"), SubResource("RichTextEffect_q4a7c"), SubResource("RichTextEffect_44w4a"), SubResource("RichTextEffect_oie6x"), SubResource("RichTextEffect_0do6i"), SubResource("RichTextEffect_vdu1s"), SubResource("RichTextEffect_y7gko"), SubResource("RichTextEffect_ru158"), SubResource("RichTextEffect_gvedh"), SubResource("RichTextEffect_4gabg"), SubResource("RichTextEffect_ml0ut"), SubResource("RichTextEffect_7g67r"), SubResource("RichTextEffect_wirli"), SubResource("RichTextEffect_t1vax")]
+script = ExtResource("2_qtu10")
+used_ascii_theme = ExtResource("5_1e6js")
+grid_size = Vector2i(160, 45)
+_grid_size = Vector2i(160, 45)
+metadata/_custom_type_script = "uid://qx1nqsohcta3"
+
+[node name="Background" type="ColorRect" parent="." unique_id=1218093070]
+show_behind_parent = true
+layout_mode = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+color = Color(0, 0, 0, 1)
+
+[node name="Nightsky" type="Control" parent="." unique_id=322271690]
+custom_minimum_size = Vector2(1296, 720)
+custom_maximum_size = Vector2(1296, 720)
+anchors_preset = 0
+offset_right = 1296.0
+offset_bottom = 720.0
+mouse_filter = 1
+script = ExtResource("7_7x8x3")
+texture = ExtResource("8_rycyq")
+invert_contrast = true
+scaling_parameter = 0.845
+metadata/_custom_type_script = "uid://c2e2nsf0n6e27"
+
+[node name="moon" type="Control" parent="." unique_id=1603226721]
+custom_minimum_size = Vector2(672, 672)
+custom_maximum_size = Vector2(672, 672)
+anchors_preset = 0
+offset_left = -107.0
+offset_top = -171.0
+offset_right = 565.0
+offset_bottom = 501.0
+mouse_filter = 1
+script = ExtResource("7_7x8x3")
+texture = ExtResource("10_1k6cn")
+blend_color_based_on_transparency = true
+metadata/_custom_type_script = "uid://c2e2nsf0n6e27"
+
+[node name="hills" type="Control" parent="." unique_id=286773580]
+custom_minimum_size = Vector2(1280, 720)
+custom_maximum_size = Vector2(1280, 720)
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 1
+script = ExtResource("7_7x8x3")
+texture = ExtResource("11_3qux0")
+invert_contrast = true
+metadata/_custom_type_script = "uid://c2e2nsf0n6e27"
+metadata/_edit_lock_ = true
+
+[node name="trees" type="Control" parent="." unique_id=163858978]
+custom_minimum_size = Vector2(1280, 720)
+custom_maximum_size = Vector2(1280, 720)
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 1
+script = ExtResource("7_7x8x3")
+texture = ExtResource("12_rbvhi")
+invert_contrast = true
+metadata/_custom_type_script = "uid://c2e2nsf0n6e27"
+metadata/_edit_lock_ = true
+
+[node name="Alisa" type="Control" parent="." unique_id=640164750]
+custom_minimum_size = Vector2(256, 400)
+custom_maximum_size = Vector2(256, 400)
+anchors_preset = 0
+offset_left = 904.0
+offset_top = 278.0
+offset_right = 1160.0
+offset_bottom = 678.0
+mouse_filter = 1
+script = ExtResource("7_7x8x3")
+texture = ExtResource("11_1e6js")
+metadata/_custom_type_script = "uid://c2e2nsf0n6e27"
+
+[node name="ASCIITextElement" type="Control" parent="." unique_id=1648649835]
+custom_minimum_size = Vector2(240, 160)
+custom_maximum_size = Vector2(240, 160)
+anchors_preset = 0
+offset_left = 50.0
+offset_top = 250.0
+offset_right = 290.0
+offset_bottom = 410.0
+mouse_filter = 1
+script = ExtResource("5_a5ior")
+text_resource = ExtResource("13_q4a7c")
+metadata/_custom_type_script = "uid://cs4owqwmimtas"
+
+[node name="example_text" type="Control" parent="." unique_id=913204766]
+custom_minimum_size = Vector2(1272, 160)
+custom_maximum_size = Vector2(1272, 160)
+anchors_preset = 0
+offset_left = 9.0
+offset_top = 29.0
+offset_right = 1281.0
+offset_bottom = 189.0
+mouse_filter = 1
+script = ExtResource("5_a5ior")
+text_resource = SubResource("Resource_oie6x")
+override_transparency_character = " "
+metadata/_custom_type_script = "uid://cs4owqwmimtas"

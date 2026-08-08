@@ -1,0 +1,7 @@
+[gd_resource type="RichTextEffect" script_class="ASCIIEffect" format=3 uid="uid://pp1oxglcpawd"]
+
+[ext_resource type="Script" uid="uid://dlladg1ymjigm" path="res://addons/GodotASCIIGUIScreen/classes/ascii_effect.gd" id="1_2rsf4"]
+
+[resource]
+script = ExtResource("1_2rsf4")
+metadata/_custom_type_script = "uid://cav6nau1ypq3k"

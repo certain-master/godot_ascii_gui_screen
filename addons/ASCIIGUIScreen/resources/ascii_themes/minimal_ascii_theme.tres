@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ASCIITheme" format=3 uid="uid://bps1f01aut0q1"]
+
+[ext_resource type="FontFile" uid="uid://bo8tqi42vg07m" path="res://addons/ascii_gui_screen/fonts/unifont-17.0.05.otf" id="1_dc8vj"]
+[ext_resource type="Script" uid="uid://kcqggv4utvtq" path="res://addons/ascii_gui_screen/classes/ascii_theme.gd" id="2_iricd"]
+
+[resource]
+script = ExtResource("2_iricd")
+font = ExtResource("1_dc8vj")
+contrast_characters = "@%#*+=-:."
+metadata/_custom_type_script = "uid://kcqggv4utvtq"

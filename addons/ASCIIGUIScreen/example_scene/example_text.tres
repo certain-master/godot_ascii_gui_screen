@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ASCIITextResource" format=3 uid="uid://drjk7eh50kg4t"]
+
+[ext_resource type="Script" uid="uid://ciy5palgvotvi" path="res://addons/ascii_gui_screen/classes/ascii_text_resource.gd" id="1_tdc8o"]
+
+[resource]
+script = ExtResource("1_tdc8o")
+text = "You can write any text!
+
+Or use [color=red]color[/color]!
+
+Or a [url=test]link![/url]
+
+Or make something transparent:
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Anything is possible' 
+    - Sean Murray"
+metadata/_custom_type_script = "uid://ciy5palgvotvi"
