@@ -16,7 +16,7 @@ Every significant property or method in the plugin is explained using GDScript d
 - support for BBCode color
 - support for BBCode url
 
-![ASCIITextElement](.example_videos/text_example.mp4)
+![ASCIITextElement](.example_videos/text_example.gif)
 
 ### ![ascii_screen_icon](addons/ASCIIGUIScreen/icons/ascii_pixel_art_icon.png) ASCIIPixelArt
 - automatically converts a Texture2D to ASCII characters
@@ -24,13 +24,13 @@ Every significant property or method in the plugin is explained using GDScript d
 - matches contrast
 - optionally respects Alpha (transparency) and blends color 
 
-![ASCIIPixelArt](.example_videos/color_blending_example.mp4)
+![ASCIIPixelArt](.example_videos/color_blending_example.gif)
 
 ### ASCIITheme Resource
 -  define a set of characters for your own ASCIITheme (e.g. ```@%#*+=-:.``` or ```█▓▒░```)
 -  set a font to use in the whole ASCIIScreen
 
-![ASCIITheme](.example_videos/theme_example.mp4)
+![ASCIITheme](.example_videos/theme_example.gif)
 
 ### Performance
 
