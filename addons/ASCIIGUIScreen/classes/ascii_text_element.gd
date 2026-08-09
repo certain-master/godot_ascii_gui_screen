@@ -93,6 +93,8 @@ var _cached_split_text_array : PackedStringArray
 
 func _init() -> void:
 	super()
+	if text_resource:
+		text_resource.text_changed.connect(_on_text_resource_changed)
 
 func _ready() -> void:
 	super()
